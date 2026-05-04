@@ -1,6 +1,6 @@
 cask "ai-desktop" do
   version "0.1.0"
-  sha256 :no_check
+  sha256 "bc6103c18f2e2ff1467474714381ad80e8d385d371a266c2bd5f00dfce5488a7"
 
   url "https://github.com/itprise/homebrew-tap/releases/download/v#{version}/AI.Desktop_#{version}_aarch64.dmg"
   name "AI Desktop"
