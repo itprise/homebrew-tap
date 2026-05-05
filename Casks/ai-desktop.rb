@@ -4,7 +4,7 @@ cask "ai-desktop" do
 
   url "https://github.com/itprise/homebrew-tap/releases/download/v#{version}/AI.Desktop_#{version}_aarch64.dmg"
   name "AI Desktop"
-  desc "Lokale KI-Assistenz für macOS — powered by llama.cpp & Candle"
+  desc "Lokale KI-Assistenz für macOS — powered by ITPrise"
   homepage "https://github.com/itprise/homebrew-tap"
 
   app "AI Desktop.app"
