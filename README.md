@@ -1,23 +1,40 @@
 # ITPrise Homebrew Tap
 
-Offizieller Homebrew Tap für AI Desktop.
+Offizieller Homebrew Tap von ITPrise.
 
-## Installation
+## Studio (aktuell)
+
+Apple Silicon, macOS 11 oder neuer. Signiert und notarisiert.
 
 ```bash
 brew tap itprise/tap
+brew install --cask itprise-studio
+```
+
+Update:
+
+```bash
+brew update && brew upgrade --cask itprise-studio
+```
+
+Deinstallation:
+
+```bash
+brew uninstall --cask itprise-studio
+```
+
+Mit `--zap` werden zusätzlich die Daten unter `~/Library/Application Support/com.itprise.studio` entfernt.
+
+## AI Desktop (Vorgänger von Studio)
+
+Letzte Version in diesem Tap: 26.5.0. Studio ist eine eigene App mit eigener Bundle-ID und eigenem Datenordner.
+
+```bash
 brew install --cask ai-desktop
 ```
 
-## Update
+## Tap entfernen
 
 ```bash
-brew upgrade ai-desktop
-```
-
-## Deinstallation
-
-```bash
-brew uninstall --cask ai-desktop
 brew untap itprise/tap
 ```
