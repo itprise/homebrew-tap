@@ -25,14 +25,6 @@ brew uninstall --cask itprise-studio
 
 Mit `--zap` werden zusätzlich die Daten unter `~/Library/Application Support/com.itprise.studio` entfernt.
 
-## AI Desktop (Vorgänger von Studio)
-
-Letzte Version in diesem Tap: 26.5.0. Studio ist eine eigene App mit eigener Bundle-ID und eigenem Datenordner.
-
-```bash
-brew install --cask ai-desktop
-```
-
 ## Tap entfernen
 
 ```bash
