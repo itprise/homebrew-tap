@@ -1,6 +1,6 @@
 cask "itprise-studio" do
-  version "26.11.2602"
-  sha256 "db351a51a02341e8e10593f07764ee3e2d569d093798cb441ec1e5957e362411"
+  version "26.11.2603"
+  sha256 "9e111d5cd53a80a3fffd2d37bb467bafca8a8bec8adc5fffacc8cf10eecf8e71"
 
   url "https://github.com/itprise/homebrew-tap/releases/download/v#{version}/Studio_#{version}_aarch64.dmg"
   name "ITPrise Studio"
