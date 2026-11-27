@@ -1,6 +1,6 @@
 cask "itprise-studio" do
-  version "26.11.2611"
-  sha256 "421764121255e1b2a689afff1b4f10a3b91c3ef21724417b5ca170e0219654a7"
+  version "26.11.2610"
+  sha256 "70974218116f71d061b8d1f807b2bc99615753c5c84ba3b74a7863ed6a90b5f0"
 
   url "https://github.com/itprise/homebrew-tap/releases/download/v#{version}/Studio_#{version}_aarch64.dmg"
   name "ITPrise Studio"
@@ -8,7 +8,7 @@ cask "itprise-studio" do
   homepage "https://github.com/itprise/homebrew-tap"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on :macos
 
   app "Studio.app"
 
