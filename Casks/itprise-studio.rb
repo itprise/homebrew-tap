@@ -8,7 +8,7 @@ cask "itprise-studio" do
   homepage "https://github.com/itprise/homebrew-tap"
 
   depends_on arch: :arm64
-  depends_on :macos
+  depends_on macos: ">= :monterey"
 
   app "Studio.app"
 
